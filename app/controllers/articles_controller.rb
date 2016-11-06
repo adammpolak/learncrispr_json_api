@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  # before_action :authenticate
+  before_action :authenticate
 
   def index
     articles = Article.all
